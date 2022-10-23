@@ -63,7 +63,7 @@ No template around and variable since you inject variables from outside in fact 
 It only generates yaml so you can pipe with kubectl cli. In essence passing its output as input for kubectl with a simple pipe mechanism. \
 There is no build-in deployment mechanism. The only thing we have to do is using kustomize to produce and output and give it to kubectl.
 
-**Sections:**
+**Labs:**
 
 * [`First example`](./001-first-example/README.md)
 
