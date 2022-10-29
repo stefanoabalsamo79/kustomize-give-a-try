@@ -66,6 +66,6 @@ There is no build-in deployment mechanism. The only thing we have to do is using
 **Labs:**
 
 * [`First example`](./001-first-example/README.md)
-
-
-
+* [`Adding labels and annotations`](./002-adding-labels-and-annotations/README.md)
+* [`Generate configmap`](./003-generate-config-map/README.md)
+* [`Using base deployment along with adding image and namespace`](./004-using-base-deployment/README.md)
