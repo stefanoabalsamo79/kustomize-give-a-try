@@ -17,7 +17,7 @@ FULLY_QUALIFIED_IMAGE_URL:=$(ARTIFACT_REGISTRY)$(IMAGE_NAME_TAG)
 
 params-guard-%:
 	@if [ "${${*}}" = "" ]; then \
-			echo "Environment variable $* not set"; \
+			echo "[$*] not set"; \
 			exit 1; \
 	fi
 
