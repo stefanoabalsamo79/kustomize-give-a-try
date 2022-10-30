@@ -1,0 +1,6 @@
+[
+  { "op": "remove", "path": "/spec/strategy" },
+  { "op": "replace", "path": "/spec/progressDeadlineSeconds", "value": 700 },
+  { "op": "remove", "path": "/spec/template/spec/terminationGracePeriodSeconds" },
+  { "op": "add", "path": "/spec/template/spec/terminationGracePeriodSeconds", "value": 45 } 
+]
