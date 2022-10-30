@@ -70,3 +70,4 @@ There is no build-in deployment mechanism. The only thing we have to do is using
 * [`Generate configmap`](./003-generate-config-map/README.md)
 * [`Using base deployment along with adding image and namespace`](./004-using-base-deployment/README.md)
 * [`Patch your manifest`](./005-patch-your-manifest/README.md)
+* [`Name suffix`](./006-name-suffix/README.md)
